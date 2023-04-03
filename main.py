@@ -123,23 +123,6 @@ def change_contact(dict_phnbk: list[dict], index: int):
         return dict_phnbk[index - 1]
 
 
-    # contact = {}
-    # name = input("Введите имя: ")
-    # phone = input("Введите номер телефона: ")
-    # comment = input("Введите комментарий: ")
-    # if name:
-    #     contact['name'] = name
-    # else:
-    #     contact['name'] = dict_phnbk[index - 1]['name']
-    # if phone:
-    #     contact['phone'] = phone
-    # else:
-    #     contact['phone'] = dict_phnbk[index - 1]['phone']
-    # if comment:
-    #     contact['comment'] = comment
-    # else:
-    #     contact['comment'] = dict
-
 
 
 meny()
