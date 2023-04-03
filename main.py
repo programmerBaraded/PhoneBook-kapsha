@@ -47,8 +47,8 @@ def meny():
             if 1 <= index <= len(dict_phnbk):
                 new_contact = change_contact(dict_phnbk, index)
                 if new_contact is not None:
-                    dict_phnbk.pop(index - 1)
                     dict_phnbk[index - 1] = new_contact
+                    dict_phnbk.pop(index - 1)
                     print(f'Контакт {dict_phnbk[index - 1].get("name")} успешно изменен!')
                 else:
                     print('Изменения не были внесены')
